@@ -1,0 +1,112 @@
+
+body{
+    width: 80%;
+    margin: auto;
+}
+*{
+    font-family: "Jersey 10 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.homepage{
+    font-size: 35px;
+    text-decoration: none;
+}
+.homepage a{
+    color: black;
+}
+.choice{
+    display: flex;
+    max-width: 400px;
+}
+.choice li{
+    padding-left: 20px;
+}
+.choice li a{
+    font-size: 20px;
+    color: rgb(35, 35, 35);
+}
+
+.header{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    border: 5px dashed #3f3d3d;
+    margin-top: 20px;
+}
+.header p{
+    font-size: 40px;
+    line-height: 50px;
+}
+.header .about_me{
+    display: flex;
+    align-items: center;
+}
+.header .about_me img{
+    width: 230px;
+    cursor: pointer;
+}
+.header .about_me p{
+    cursor: pointer;
+}
+
+.title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #2a2829;
+    font-size: 35px;
+}
+
+.main{
+    margin-top: 30px;
+}
+.main .static{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0;
+}
+.main .static .inner_static{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3px;
+    background-color: #eee;
+
+}
+
+.card{
+    padding: 20px 0 0 0;
+}
+.card img{
+    width: 300px;
+    height: 200px;
+}
+
+.main .Javascript{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0;
+}
+.main .inner_Javascript{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3px;
+    background-color: #eee;
+}
+.main .vue{
+    font-size: 30px;
+    text-align: center;
+}
+.main .vue .inner_vue{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3px;
+    background-color: #eee;
+}
